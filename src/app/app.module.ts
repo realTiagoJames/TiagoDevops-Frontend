@@ -7,6 +7,8 @@ import { HomeComponent } from './views/home/home.component';
 import { MainComponent } from './components/templates/main/main.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
       ],
   providers: [],
   bootstrap: [AppComponent]
