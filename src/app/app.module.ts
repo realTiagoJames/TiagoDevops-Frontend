@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './components/templates/main/main.component';
 import { MenuComponent } from './components/templates/menu/menu.component';
 import { HomeComponent } from './views/home/home.component';
 import { CloudComponent } from './views/views-main/cloud/cloud.component';
@@ -22,7 +21,6 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
   declarations: [
     AppComponent,
     HomeComponent,
-    MainComponent,
     MenuComponent,
     ServicosComponent,
     ContatoComponent,
