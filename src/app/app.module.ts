@@ -11,6 +11,9 @@ import { HomeComponent } from './views/home/home.component';
 import { MenuComponent } from './components/templates/menu/menu.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
+import { ContatoComponent } from './views/views-main/contato/contato.component';
+import { CloudComponent } from './views/views-main/cloud/cloud.component';
+import { CriacaoWebsitesComponent } from './views/views-main/criacao-websites/criacao-websites.component';
 
 
 
@@ -21,6 +24,9 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     MainComponent,
     MenuComponent,
     ServicosComponent,
+    ContatoComponent,
+    CloudComponent,
+    CriacaoWebsitesComponent,
   ],
   imports: [
     BrowserModule,
