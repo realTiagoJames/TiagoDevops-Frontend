@@ -10,6 +10,7 @@ import { MainComponent } from './components/templates/main/main.component';
 import { HomeComponent } from './views/home/home.component';
 import { MenuComponent } from './components/templates/menu/menu.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { ServicosComponent } from './views/views-main/servicos/servicos.component';
 
 
 
@@ -19,6 +20,7 @@ import {MatMenuModule} from '@angular/material/menu';
     HomeComponent,
     MainComponent,
     MenuComponent,
+    ServicosComponent,
   ],
   imports: [
     BrowserModule,
