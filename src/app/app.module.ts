@@ -14,6 +14,7 @@ import { ContatoComponent } from './views/views-main/contato/contato.component';
 import { CriacaoSistemasComponent } from './views/views-main/criacao-sistemas/criacao-sistemas.component';
 import { CriacaoWebsitesComponent } from './views/views-main/criacao-websites/criacao-websites.component';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
+import { FooterComponent } from './components/templates/footer/footer.component';
 
 
 
@@ -26,7 +27,8 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     ContatoComponent,
     CloudComponent,
     CriacaoWebsitesComponent,
-    CriacaoSistemasComponent
+    CriacaoSistemasComponent,
+    FooterComponent
 
   ],
   imports: [

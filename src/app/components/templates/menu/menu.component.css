@@ -1,20 +1,35 @@
 .tarja1 {
-  background-color: #dedcdc;
+  background-color: #2d394b;
   height: 5%;
   width: 100%;
 }
 .tarja1texto {
-  color: rgb(58, 57, 57);
+  color: #9cc9f5;
   position: relative;
   font-size: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-left: 50px;
+  border-right: 50px;
 }
 .tarja2 {
   background-color: #57c2fc;
-  height: 10%;
+  height: 4.6rem;
   width: 100%;
+}
+.logoContainer {
+  width: 20%;
+  padding-left: 5%;
+}
+.imglogo{
+  position: relative;
+  width: 50%;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.MenuContainer{
+  display: inline;
 }
 .menu-1{
 padding-left: 2%;
