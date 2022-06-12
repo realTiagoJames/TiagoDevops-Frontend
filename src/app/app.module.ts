@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './components/templates/main/main.component';
 import { HomeComponent } from './views/home/home.component';
+import { MenuComponent } from './components/templates/menu/menu.component';
 
 
 
@@ -16,6 +17,7 @@ import { HomeComponent } from './views/home/home.component';
     AppComponent,
     HomeComponent,
     MainComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
