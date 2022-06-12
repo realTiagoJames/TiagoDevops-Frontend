@@ -1,10 +1,10 @@
 .tarja1 {
-  background-color: #545454;
+  background-color: #dedcdc;
   height: 5%;
   width: 100%;
 }
 .tarja1texto {
-  color: white;
+  color: rgb(58, 57, 57);
   position: relative;
   font-size: 80%;
   top: 50%;
@@ -12,7 +12,7 @@
   transform: translate(-50%, -50%);
 }
 .tarja2 {
-  background-color: #0a0a0a;
+  background-color: #57c2fc;
   height: 10%;
   width: 100%;
 }
