@@ -16,6 +16,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MenuComponent } from './components/templates/menu/menu.component';
 import { NgModule } from '@angular/core';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 
@@ -39,7 +41,8 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     BrowserAnimationsModule,
     MatIconModule,
     MatMenuModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule
       ],
   providers: [],
   bootstrap: [AppComponent]
