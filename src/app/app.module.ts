@@ -9,6 +9,7 @@ import { CriacaoSistemasComponent } from './views/views-main/criacao-sistemas/cr
 import { CriacaoWebsitesComponent } from './views/views-main/criacao-websites/criacao-websites.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -37,7 +38,8 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     MatToolbarModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatGridListModule
       ],
   providers: [],
   bootstrap: [AppComponent]
