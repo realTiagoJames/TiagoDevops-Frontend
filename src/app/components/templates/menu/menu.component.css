@@ -18,18 +18,18 @@
 }
 .tarja2 {
   background-color:  #01a7ec;
-  height: 4.6rem;
+  height: 4.0rem;
   width: 100%;
   position: fixed;
   top: 2rem;
 }
 .logoContainer {
-  width: 28%;
-  padding-left: 10%;
+  width: 13%;
+  padding-left: 3%;
 }
 .imglogo{
   position: relative;
-  width: 50%;
+  width: 135px;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -37,18 +37,31 @@
   display: inline;
 }
 .menu-1{
-padding-left: 2%;
+padding-left: 0.8rem;
 cursor: pointer;
+font-weight: normal;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .menu-2{
-  padding-left: 2%;
+  padding-left: 0.8rem;
   cursor: pointer;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   }
 .menu-3{
-padding-left: 2%;
-cursor: pointer;
+  padding-left: 0.8rem;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .menu-4{
-  padding-left: 2%;
+  padding-left: 0.8rem;
   cursor: pointer;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
