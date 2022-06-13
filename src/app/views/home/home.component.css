@@ -3,3 +3,11 @@
   width: 100%;
   padding-top: 9%;
 }
+.titulo{
+  font-family: "Georgia","Times","Garamond","Noto Sans Arabic","Noto Sans Arabic UI","Noto Sans Hebrew",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+.gd1{
+  background-color: blue;
+}
