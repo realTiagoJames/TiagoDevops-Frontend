@@ -1,26 +1,31 @@
 .tarja1 {
   background-color: #2d394b;
-  height: 5%;
+  height: 2rem;
   width: 100%;
+  position: fixed;
 }
 .tarja1texto {
   color: #9cc9f5;
   position: relative;
-  font-size: 80%;
+  font-weight: lighter;
+  font-size: 15px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-left: 50px;
   border-right: 50px;
+  align-items: center;
 }
 .tarja2 {
-  background-color: #57c2fc;
+  background-color:  #01a7ec;
   height: 4.6rem;
   width: 100%;
+  position: fixed;
+  top: 2rem;
 }
 .logoContainer {
-  width: 20%;
-  padding-left: 5%;
+  width: 25%;
+  padding-left: 10%;
 }
 .imglogo{
   position: relative;
