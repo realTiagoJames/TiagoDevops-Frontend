@@ -6,7 +6,7 @@
 }
 .tarja1texto {
   color: #9cc9f5;
-  position: relative;
+  position: absolute;
   font-weight: lighter;
   font-size: 15px;
   top: 50%;
@@ -15,6 +15,47 @@
   border-left: 50px;
   border-right: 50px;
   align-items: center;
+  padding-top: 0.08rem;
+
+}
+.help{
+  padding-left: 25%;
+  padding-right: 15px;
+  color: white;
+  font-size: 13px;
+}
+.help:hover{
+  padding-left: 25%;
+  padding-right: 15px;
+  color: orangered;
+  text-decoration: underline;
+  font-size: 13px;
+}
+.separador1{
+  color: white;
+  padding-right: 15px;
+}
+.IconEngineering {
+  padding-top: 8px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+}
+.SuporteTecnico{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 0px;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+}
+.SuporteTecnico:hover{
+  padding-left: 18px;
+  padding-right: 10px;
+  padding-top: 0px;
+  color: orangered;
+  cursor: pointer;
+  text-decoration: underline;
 }
 .tarja2 {
   background-color:  #01a7ec;
