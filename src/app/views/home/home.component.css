@@ -11,103 +11,10 @@
   margin-bottom: 20px;
   margin-top: 30px;
 }
-.gridContainer{
-  top: 2%;
-  width: 100%;
+mat-grid-tile {
+  background: white;
 }
-.gd1{
-  background-image: url(/assets/BannerDev.png);
-  background-size: 100%;
-  background-color: blue;
-}
-.gd1-h1-cont{
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 10px;
-  margin-left: 150px;
-  background-color: rgba(5, 5, 5, 0.8);
-  text-align: end;
-  color: white;
-}
-.gd1-h1{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding-right: 0px;
-}
-.button-gd1{
-  color: black;
-  background-color: rgb(227, 233, 227);
-}
-.gd2{
-  background-image: url(/assets/BannerTec362.png);
-  background-size: 100%;
-  background-color: blue;
-}
-.gd2-h1-cont{
-  padding-left: 10px;
-  padding-top: 20px;
-  padding-right: 20px;
-  margin-right: 150px;
-  background-color: rgba(5, 5, 5, 0.8);
-  text-align: left;
-  color: white;
-}
-.gd2-h1{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding-right: 0px;
-}
-.button-gd2{
-  color: black;
-  background-color: rgb(227, 233, 227);
-}
-.gd3{
-  background-image: url(/assets/BannerAgile.png);
-  background-size: 100%;
-  background-color: blue;
-}
-.gd3-h1-cont{
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 10px;
-  margin-left: 150px;
-  background-color: rgba(5, 5, 5, 0.8);
-  text-align: end;
-  color: white;
-}
-.gd3-h1{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding-right: 0px;
-}
-.button-gd3{
-  color: black;
-  background-color: rgb(227, 233, 227);
-}
-.gd4{
-  background-image: url(/assets/BannerCI-CD.png);
-  background-size: 100%;
-  background-color: blue;
-}
-.gd4-h1-cont{
-  padding-left: 10px;
-  padding-top: 20px;
-  padding-right: 20px;
-  margin-right: 150px;
-  background-color: rgba(5, 5, 5, 0.8);
-  text-align: left;
-  color: white;
-}
-.gd4-h1{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  padding-right: 0px;
-}
-.button-gd4{
-  color: black;
-  background-color: rgb(227, 233, 227);
+.gd1-logo{
+  width: 500px;
+  height: 190px;
 }
