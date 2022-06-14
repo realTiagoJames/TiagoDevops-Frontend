@@ -80,34 +80,10 @@
 .MenuContainer{
   display: inline;
 }
-.menu-1{
-padding-left: 0.8rem;
+.menu-topicos{
+padding-left: 0.02rem;
 cursor: pointer;
-font-weight: bold;
+font-weight: normal;
 font-size: 18px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.menu-2{
-  padding-left: 0.8rem;
-  cursor: pointer;
-  font-weight: normal;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-.menu-3{
-  padding-left: 0.8rem;
-  cursor: pointer;
-  font-weight: normal;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.menu-4{
-  padding-left: 0.8rem;
-  cursor: pointer;
-  font-weight: normal;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
