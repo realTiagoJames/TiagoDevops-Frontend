@@ -17,6 +17,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MenuComponent } from './components/templates/menu/menu.component';
 import { NgModule } from '@angular/core';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
+import { InsightsComponent } from './views/views-main/insights/insights.component';
 
 
 
@@ -31,7 +32,8 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     CloudComponent,
     CriacaoWebsitesComponent,
     CriacaoSistemasComponent,
-    FooterComponent
+    FooterComponent,
+    InsightsComponent
 
   ],
   imports: [

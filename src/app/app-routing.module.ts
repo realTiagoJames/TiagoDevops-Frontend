@@ -1,3 +1,4 @@
+import { InsightsComponent } from './views/views-main/insights/insights.component';
 import { CriacaoSistemasComponent } from './views/views-main/criacao-sistemas/criacao-sistemas.component';
 import { CriacaoWebsitesComponent } from './views/views-main/criacao-websites/criacao-websites.component';
 import { CloudComponent } from './views/views-main/cloud/cloud.component';
@@ -10,6 +11,7 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
 const routes: Routes = [
 
   { path:'cloud', component: CloudComponent},
+  { path:'insights', component: InsightsComponent},
   { path:'criação-de-websites', component: CriacaoWebsitesComponent},
   { path:'criação-de-sistemas', component: CriacaoSistemasComponent},
   { path:'serviços', component: ServicosComponent},

@@ -7,7 +7,7 @@
   Helcome to my Website! Consulte a disponibilidade de serviços na sua região. Leia mais
   <a class="help">Help</a>
   <a class="separador1">|</a>
-  <a><mat-icon class="IconEngineering">mail</mat-icon></a>
+  <a><mat-icon class="IconMail">mail</mat-icon></a>
   <a class="SuporteTecnico">Suporte Técnico</a>
   </p>
   </div>
@@ -22,8 +22,6 @@
     <img class="imglogo" src="assets\LOGObrancaA1.png"  alt="Logo TiagoDevops">
     </a>
     </div>
-  <!-- Menu Horizontal  -->
-      <!-- <div class="MenuContainer"> -->
       <div class="menu-topicos">
          <a mat-button [matMenuTriggerFor]="aboveMenu">Serviços</a>
           <mat-menu #aboveMenu="matMenu" yPosition="above">
@@ -34,6 +32,11 @@
           <button mat-menu-item routerLink="criação-de-websites">Consultoria</button>
           <button mat-menu-item routerLink="criação-de-websites">Deploy(Insyalação)</button>
         </mat-menu>
+      </div>
+      <div class="menu-topicos">
+        <a mat-button routerLink="insights">Insights</a>
+         <mat-menu #belowMenu="matMenu" yPosition="below">
+         </mat-menu>
       </div>
       <div class="menu-topicos">
         <a mat-button [matMenuTriggerFor]="belowMenu">Below</a>
@@ -56,7 +59,6 @@
          <button mat-menu-item>Item 2</button>
          </mat-menu>
       </div>
-    <!-- </div> -->
 </mat-toolbar>
 </div>
-<!-- <app-home></app-home> -->
+
