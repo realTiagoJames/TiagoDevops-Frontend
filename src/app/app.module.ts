@@ -18,7 +18,9 @@ import { MenuComponent } from './components/templates/menu/menu.component';
 import { NgModule } from '@angular/core';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
 import { InsightsComponent } from './views/views-main/insights/insights.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavComponent } from './components/templates/nav/nav.component';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 
@@ -33,7 +35,8 @@ import { InsightsComponent } from './views/views-main/insights/insights.componen
     CriacaoWebsitesComponent,
     CriacaoSistemasComponent,
     FooterComponent,
-    InsightsComponent
+    InsightsComponent,
+    NavComponent
 
   ],
   imports: [
@@ -44,7 +47,9 @@ import { InsightsComponent } from './views/views-main/insights/insights.componen
     MatIconModule,
     MatMenuModule,
     MatGridListModule,
-    MatButtonModule
+    MatButtonModule,
+    NgbModule,
+    MatTabsModule
       ],
   providers: [],
   bootstrap: [AppComponent]
