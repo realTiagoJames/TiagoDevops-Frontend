@@ -59,6 +59,7 @@
 }
 .tarja2-cont{
   position: fixed;
+  padding: 0px;
 }
 .tarja2 {
   background-color:  #01a7ec;
@@ -67,15 +68,13 @@
   position: fixed;
   top: 2rem;
 }
-.logoContainer {
-  width: 13%;
-  padding-left: 3%;
-}
 .imglogo{
   position: relative;
   width: 135px;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
+  margin-left: 27px;
+  padding-right: 10px;
 }
 .MenuContainer{
   display: inline;

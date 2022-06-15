@@ -7,14 +7,96 @@
   font-family: "Georgia","Times","Garamond","Noto Sans Arabic","Noto Sans Arabic UI","Noto Sans Hebrew",sans-serif;
   font-weight: 400;
   font-size: 36px;
-  padding-left: 3%;
+  margin-left: 44px;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 8px;
 }
-mat-grid-tile {
+
+/* Opções totais de estilo do Grid */
+.gd-cont {
+  width: 1150px;
+  height: 4%;
+  margin-left: 25px;
+  margin-top: 30px;
+  background-color: rgb(238, 238, 238);
+}
+
+/* Opções de estilo do Grid1 */
+.grid1-cont {
   background: white;
+  height: 160px;
+  width: 100%;
+}
+.element-grid-cont{
+  width: 100%;
 }
 .gd1-logo{
-  width: 500px;
-  height: 190px;
+  width: 350px;
+  margin-left: 140px;
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+.gd1-h1-cont{
+  margin-left: 20px;
+  padding-bottom: 100px;
+  margin-top: 10px;
+}
+.gd1-h1{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.paragrafo-cont{
+  width: 400px;
+}
+.gd1-desc1{
+  color: #999999;
+  line-height: 22px;
+}
+
+/* Opções de estilo do Grid2 */
+.grid2-cont{
+  background-color: white;
+  height: 150px;
+}
+.gd2-desc1{
+  padding-right: 30px;
+  color: #999999;
+  font-style: italic;
+  font-size: 17px;
+  line-height: 25px;
+}
+.gd2-foto{
+  width: 250px;
+  padding-right: 50px;
+  margin-top: 5px;
+}
+.gd2-h2-cont1{
+  padding-bottom: 0px;
+}
+.gd2-h3-cont2{
+  padding-bottom: 0px;
+}
+.gd2-h3{
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.gd2-desc2{
+  padding-right: 30px;
+  color: #999999;
+  font-size: 15px;
+  line-height: 27px;
+}
+.link-email{
+  color: #01a7ec;
+  text-decoration: none;
+}
+.button-gd2{
+  background-color: #01a7ec;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 40px;
+
 }
