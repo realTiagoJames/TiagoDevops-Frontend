@@ -23,6 +23,7 @@ import { NavComponent } from './components/templates/nav/nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -53,7 +54,8 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
     MatGridListModule,
     MatButtonModule,
     NgbModule,
-    MatTabsModule
+    MatTabsModule,
+    FlexLayoutModule
       ],
   providers: [],
   bootstrap: [AppComponent]
