@@ -1,3 +1,4 @@
+import { FalarComVendasComponent } from './views/views-main/falar-com-vendas/falar-com-vendas.component';
 import { AtendimentoAoClienteComponent } from './views/views-main/atendimento-ao-cliente/atendimento-ao-cliente.component';
 import { CloudComponent } from './views/views-main/cloud/cloud.component';
 import { ContatoComponent } from './views/views-main/contato/contato.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
 
   { path:'', component: HomeComponent  },
   { path:'atendimento-ao-cliente', component: AtendimentoAoClienteComponent},
+  { path:'falar-com-vendas', component: FalarComVendasComponent},
   { path:'cloud', component: CloudComponent},
   { path:'insights', component: InsightsComponent},
   { path:'criação-de-sistemas', component: CriacaoSistemasComponent},

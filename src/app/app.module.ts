@@ -24,6 +24,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { ServicosComponent } from './views/views-main/servicos/servicos.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FalarComVendasComponent } from './views/views-main/falar-com-vendas/falar-com-vendas.component';
 
 
 
@@ -41,7 +42,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     InsightsComponent,
     NavComponent,
     AtendimentoAoClienteComponent,
-    AtendimentoFormComponent
+    AtendimentoFormComponent,
+    FalarComVendasComponent
 
   ],
   imports: [
