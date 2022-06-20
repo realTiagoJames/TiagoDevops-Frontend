@@ -3,7 +3,7 @@
   position: fixed;
   background-color: #01a7ec;
   color: white;
-  height: 60px;
+  height: 65px;
   width: 100%;
   z-index: 99;
   margin-top: 115px;
@@ -42,10 +42,11 @@
 
 .imglogo{
   position: relative;
-  width: 125px;
+  width: 145px;
   padding-top: 1.0rem;
   padding-bottom: 1rem;
-  margin-left: 27px;
+  margin-right: 55px;
+  margin-left: 40px;
   padding-right: 10px;
 }
 
