@@ -1,11 +1,37 @@
 .menuDiv{
+  margin-top: 0px;
   background-color: #01a7ec;
   color: white;
-  height: 50px;
-
+  height: 60px;
+  width: 100%;
 }
-.space{
-  padding-top: 8px;
+
+.alert-dark {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+  margin-bottom: -12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+  opacity: .75;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .tarja1 {
@@ -97,6 +123,16 @@
 }
 .MenuContainer{
   display: inline;
+}
+.main-menu{
+  font-size: 17px;
+  padding-left: 0.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "OracleSansVF","OracleSansVFCyGr",-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+}
+.main-menu:hover{
+  color: white;
 }
 .menu-topicos{
 padding-left: 0.2rem;
