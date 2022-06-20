@@ -1,16 +1,23 @@
 
 .menuDiv{
   position: fixed;
-  margin-top: 0px;
   background-color: #01a7ec;
   color: white;
   height: 60px;
   width: 100%;
-  margin-top: 116px;
-  display: flex;
   z-index: 99;
+  margin-top: 115px;
 }
-
+*, ::after, ::before {
+  box-sizing: border-box;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
 .alert-dark {
   position: fixed;
   z-index: 99;
@@ -27,16 +34,6 @@
   width: 100%;
 }
 
-*, ::after, ::before {
-  box-sizing: border-box;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border: none;
-}
 .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
   opacity: .75;
   margin-top: 0px;

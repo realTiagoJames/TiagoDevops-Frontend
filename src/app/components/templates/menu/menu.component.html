@@ -1,26 +1,10 @@
-  <p *ngFor="let alert of alerts" fxShow fxHide.xs >
+<div class="alert-cont">
+<p *ngFor="let alert of alerts" fxShow fxHide.xs >
       <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
   </p>
 
-<!-- Tarja 1 superior -->
-<!--
-<mat-toolbar class="tarja1">
-  <mat-toolbar-row style="font-size: 1.5rem; height: 10px;">
-  <div>
-  <p class="tarja1texto">
-  Helcome to my Website! Consulte a disponibilidade de serviços na sua região. Leia mais
-  </p>
-  </div>
-  <span class="example-spacer"></span>
-  <a class="help">Help</a>
-  <a class="separador1">|</a>
-  <a><mat-icon class="IconMail">mail</mat-icon></a>
-  <a class="SuporteTecnico">Suporte Técnico</a>
-</mat-toolbar-row>
-</mat-toolbar> -->
 
-
-<!-- Tarja 2 superior -->
+<!-- Main menu -->
 <div class="main-menu-cont">
 <div fxLayout="row wrap" fxLayoutAlign="center center">
   <div class="menuDiv" fxFlex="100%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayoutAlign=" center">
@@ -115,4 +99,6 @@
     </div>
   </div>
 </div>
+</div>
+
 </div>
