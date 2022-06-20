@@ -1,5 +1,5 @@
 .body{
-  height: 60%;
+  height: 1200px;
   width: 100%;
   padding-top: 7%;
 }
@@ -13,7 +13,8 @@
 }
 .gridContainer{
   top: 2%;
-  width: 100%;
+  width: 75%;
+  margin-left: 40px;
 }
 .gd1{
   background-image: url(/assets/BannerDev.png);

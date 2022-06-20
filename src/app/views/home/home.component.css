@@ -1,7 +1,8 @@
 .body{
-  height: 200%;
+  height: 1200px;
   width: 100%;
   padding-top: 9%;
+
 }
 .titulo{
   font-family: "Georgia","Times","Garamond","Noto Sans Arabic","Noto Sans Arabic UI","Noto Sans Hebrew",sans-serif;
@@ -19,12 +20,12 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 30px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(130, 184, 119);
 }
 
 /* Opções de estilo do Grid1 */
 .grid1-cont {
-  background: white;
+  background: rgb(39, 11, 199);
   height: 100%;
   width: 100%;
 }
@@ -56,7 +57,7 @@
 
 /* Opções de estilo do Grid2 */
 .grid2-cont{
-  background-color: white;
+  background-color: rgb(226, 85, 85);
   height: 100%;
 }
 .element-grid2-cont {

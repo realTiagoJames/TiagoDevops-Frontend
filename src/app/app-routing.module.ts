@@ -11,14 +11,15 @@ import { ServicosComponent } from './views/views-main/servicos/servicos.componen
 
 const routes: Routes = [
 
+  { path:'', component: HomeComponent  },
   { path:'atendimento-ao-cliente', component: AtendimentoAoClienteComponent},
   { path:'cloud', component: CloudComponent},
   { path:'insights', component: InsightsComponent},
   { path:'criação-de-sistemas', component: CriacaoSistemasComponent},
   { path:'criação-de-websites', component: CriacaoWebsitesComponent},
   { path:'serviços', component: ServicosComponent},
-  { path:'contato', component: ContatoComponent},
-  { path:'', component: HomeComponent  }
+  { path:'contato', component: ContatoComponent}
+
 ];
 
 @NgModule({
